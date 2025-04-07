@@ -48,21 +48,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
         if (account) {
             alert('Đăng nhập thành công!');
-            window.location.href = '/Assgiment-WEB1043.html/html-Sanphamchitiet/index.html'; 
+            window.location.href = '/html-Sanphamchitiet/index.html'; 
         } else {
             alert('Email hoặc mật khẩu không chính xác.');
         }
     });
 
-
-
-
-
-
-
-
-
-    
     const signupForm = document.querySelector('.signup-box form');
     signupForm.addEventListener('submit', (event) => {
         event.preventDefault();
@@ -124,6 +115,6 @@ document.addEventListener('DOMContentLoaded', () => {
         localStorage.setItem('userAccounts', JSON.stringify(accounts));
 
         alert('Đăng ký thành công!');
-        window.location.href = '/Assgiment-WEB1043.html/AssgimentDangnhap.html'; 
+        window.location.href = '/AssgimentDangnhap.html'; 
     });
 });
