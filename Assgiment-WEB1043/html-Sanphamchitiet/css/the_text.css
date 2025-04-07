@@ -1,0 +1,59 @@
+.Trang-chu, .Trang-chu2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1200px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px; /* Slightly more rounded corners for a modern look */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Softer shadow for a subtle 3D effect */
+    overflow: hidden; /* Ensures no content overflows outside the container */
+  }
+  
+  /* Title Styling */
+  .tieu-de h2 {
+    font-family: 'Times New Roman', serif; /* More elegant font for titles */
+    font-weight: bold;
+    font-size: 40px; /* Slightly smaller font size for better proportion */
+    color: #333; /* Darker color for better readability */
+    margin: 30px 0 20px; /* Adjusted margins for spacing consistency */
+    text-align: center; /* Center align the title */
+  }
+  
+  /* Description List Styling */
+  .mo-ta-chi-tiet, .mo-ta-chi-tiet2 {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap; /* Allows for wrapping on smaller screens */
+    gap: 15px; /* Space between items */
+    justify-content: center; /* Center items within the container */
+  }
+  
+  .mo-ta-chi-tiet p, .mo-ta-chi-tiet2 p {
+    font-size: 16px; /* Consistent and slightly smaller font size */
+    font-weight: bold;
+    color: #555; /* Slightly lighter text color for better readability */
+    margin-bottom: 10px;
+  }
+  
+  .mo-ta-chi-tiet li, .mo-ta-chi-tiet2 li {
+    display: inline-block;
+    margin-right: 15px;
+  }
+  
+  .mo-ta-chi-tiet li a, .mo-ta-chi-tiet2 li a {
+    text-decoration: none;
+    color: #333; /* Dark text color for better contrast */
+    background-color: #e0e0e0; /* Lighter background color for links */
+    padding: 8px 15px;
+    border-radius: 8px; /* Slightly larger border radius for a softer look */
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .mo-ta-chi-tiet li a:hover, .mo-ta-chi-tiet2 li a:hover {
+    background-color: #d0d0d0; /* Darker background color on hover */
+    color: #000; /* Dark text color on hover for better contrast */
+  }

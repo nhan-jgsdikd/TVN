@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <script>
+            // Nhập dữ liệu từ bàn phím
+            let trongLuong = prompt("Nhập trọng lượng cơ thể (kg):");
+            let chieuCao = prompt("Nhập chiều cao (m):");
+            
+            // Tính chỉ số BMI
+            let bmi = trongLuong / (chieuCao * chieuCao);
+            
+            // Đưa ra thông báo dựa trên giá trị BMI
+            if (bmi < 18.5) {
+                alert(`BMI của bạn là ${bmi.toFixed(2)}: Thiếu cân`);
+            } else if (bmi >= 18.5 && bmi < 25) {
+                alert(`BMI của bạn là ${bmi.toFixed(2)}: Bình thường`);
+            } else if (bmi >= 25 && bmi < 30) {
+                alert(`BMI của bạn là ${bmi.toFixed(2)}: Thừa cân`);
+            } else {
+                alert(`BMI của bạn là ${bmi.toFixed(2)}: Béo phì`);
+            }
+    </script>
+</head>
+<body>
+</body>
+</html>

@@ -1,0 +1,161 @@
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 1em;
+  text-align: center;
+  border-radius: 10px;
+}
+.tong {
+    max-width: 1200px; /* Độ rộng tối đa của phần nội dung menu */
+    margin: 0 auto; /* Căn giữa nội dung menu */
+    padding: 10px; /* Khoảng cách đệm xung quanh nội dung */
+    display: flex; /* Sắp xếp các phần tử theo chiều ngang */
+    justify-content: space-between; /* Căn giữa các phần tử và đều nhau về mặt ngang */
+    align-items: center; /* Căn dọc các phần tử vào giữa */
+    height: 50px;
+  }
+  
+  .ul1 {
+    list-style-type: none; /* Loại bỏ dấu chấm đầu dòng của danh sách */
+    padding: 0; /* Xóa khoảng cách đệm trong danh sách */
+    display: flex; /* Sắp xếp các mục trên cùng 1 dòng */
+    align-items: center; /* Căn dọc các mục vào giữa */
+  }
+  
+  .ul1 li {
+    margin-right: 20px; /* Khoảng cách giữa các mục trong menu chính */
+  }
+  
+  .ul1 li:last-child {
+    margin-right: 0; /* Xóa khoảng cách phía sau mục cuối cùng */
+  }
+  
+  .ul1 li a {
+    text-decoration: none; /* Loại bỏ gạch chân dưới đường liên kết */
+      font-family: Arial, sans-serif; /* Arial là font chữ chính */
+      font-weight: bold; /* Chỉ định chữ in đậm */
+      color: #000000;
+  }
+  
+  .ul1 li a:hover {
+    text-decoration: underline; /* Gạch chân khi di chuột qua đường liên kết */
+  }
+  
+  .login input[type="text"] {
+    padding: 8px; /* Khoảng cách đệm bên trong input */
+    border: 1px solid #ccc; /* Đường viền của input */
+    border-radius: 4px; /* Bo góc của input */
+  }
+  
+  
+  .login {
+    margin-left: auto; /* Đẩy phần đăng nhập sang bên phải */
+  }
+  
+  .login a {
+    text-decoration: none; /* Loại bỏ gạch chân dưới đường liên kết */
+    color: #fff; /* Màu chữ của đường liên kết */
+    padding: 10px 20px; /* Khoảng cách đệm bên trong nút đăng nhập */
+    background-color: #4CAF50; /* Màu nền của nút đăng nhập */
+    border-radius: 5px; /* Bo góc cho nút đăng nhập */
+  }
+  
+  .login a:hover {
+    background-color: #45a049; /* Màu nền khi di chuột qua nút đăng nhập */
+  }
+  
+  .ul1 img {
+    width: 50px; /* Độ rộng của hình ảnh logo */
+    height: auto; /* Chiều cao tự động tính theo tỷ lệ */
+    border-radius: 50%; /* Bo tròn các góc */
+    margin-right: 10px; /* Khoảng cách bên phải của hình ảnh logo */
+    border: 2px solid #fff; /* Độ dày và màu sắc của đường viền */
+  }
+  .Trang-chu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    height: auto;
+}
+
+.product {
+    flex: 1;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border: 3px solid black;
+}
+
+.product-info {
+    height: 600px ;
+    flex: 2;
+    margin-left: 20px;
+    
+}
+
+.tieu-de h2 {
+  font-family: Arial, sans-serif; /* Arial là font chữ chính */
+  font-weight: bold; /* Chỉ định chữ in đậm */
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 50px;
+}
+
+.mo-ta-chi-tiet {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.mo-ta-chi-tiet p {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.mo-ta-chi-tiet li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.mo-ta-chi-tiet li a {
+  text-decoration: none;
+  color: #000000;
+  background-color: #d3d3d3;
+  padding: 5px 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+.Trang-chu2 {
+  display: flex;
+  max-width: 1200px;
+  margin: 20px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.Trang-chu2 .mo-ta-chi-tiet2 li{
+  text-align: left;
+}
+.mo-ta-chi-tiet2 p {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+
+

@@ -1,0 +1,174 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 1em 0;
+  text-align: center;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.menu {
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+}
+
+.tong {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ul1 {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.ul1 li {
+  margin-right: 20px;
+}
+
+.ul1 li:last-child {
+  margin-right: 0;
+}
+
+.ul1 li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.ul1 li a:hover {
+  color: #4CAF50;
+}
+
+.ul1 img {
+  width: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+  border: 2px solid #fff;
+}
+
+.login {
+  display: flex;
+  align-items: center;
+}
+
+.login input[type="text"] {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+.login a {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  border-radius: 5px;
+}
+
+.login a:hover {
+  background-color: #45a049;
+}
+
+.login-box, .signup-box {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-box h1, .signup-box h1 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  text-align: center;
+}
+
+.login-box label, .signup-box label {
+  display: block;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.login-box input[type="email"],
+.login-box input[type="password"],
+.signup-box input[type="text"],
+.signup-box input[type="email"],
+.signup-box input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.login-box button, .signup-box button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px;
+  width: 100%;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.login-box button:hover, .signup-box button:hover {
+  background-color: #45a049;
+}
+
+.para-2 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.para-2 a {
+  color: #4CAF50;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.para-2 a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  font-weight: bold;
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 20px;
+  font-variant: small-caps;
+  border: 1px solid black;
+}
+
+input.error {
+  border: 1px solid red;
+  background-color: #fdd;
+}
+
+main {
+  padding: 20px;
+}
